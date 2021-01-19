@@ -1,0 +1,114 @@
+/* to resize the brand logo */
+.navbar-brand .logo {
+  width: 200px;
+  height: 90px;
+}
+
+body {
+  color: #333;
+  font-weight: 300;
+  font-size: 1.45rem;
+  font-family: sans-serif;
+  background: white;
+  font-style: normal;
+}
+
+/* creates space at the top of the lists on the navogation bar */
+.cool {
+  padding-top: 38px;
+}
+
+.navbar-nav .active a {
+  border: 2px solid  #D14233;
+}
+
+/* controls the editing of the lists on the navigation bar */
+.nav > li > a {
+  font-family: sans-serif;
+  font-size: 1.45rem;
+  color: #D14233;
+  font-style: normal;
+}
+
+/* provides the smooth transitions for the lists at the navigation bar*/
+.nav > li > a:focus, .nav > li > a:hover {
+  border: 2px solid #D14233;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:focus, a:hover {
+  color: #D14233;
+  text-decoration: underline;
+}
+
+/* reduces the size of the box around login, home, register, and startups*/
+.navbar-nav > li > a {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  margin-right: 6px;
+  margin-left: 6px;
+}
+
+
+.piece {
+  background: url("../images/office.jpg") no-repeat center center;
+  background-size: cover;
+  cursor: default;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+.full-img {
+  position: absolute;
+  overflow: hidden;
+}
+
+/* controls the sizing of the background image*/
+.full-img, .img-overlay::after, .piece .content, .piece {
+  left: 0;
+  height: 100%;
+  width: 100%;
+  top: 0;
+}
+
+/* adds transparent color to background image*/
+.crop .full-img {
+  background-color: rgba(49, 12, 12, 0.76);
+}
+
+/* controls the text at the middle (KAWOLEGAL), both font and positioning*/
+.center-circle {
+  display: flex;
+  color: white;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  height: 100%;
+}
+
+.buttons {
+  padding-top: 10px;
+}
+
+/* for the button (Register Now!)*/
+.word-btn {
+  font-size: 2.5rem;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* footer */
+.text-footer > ul > li {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 15px;
+  font-size: 15px;
+  color: white;
+}
+footer.footer {
+  background-color: rgb(59, 12, 12);
+  height: 5rem;
+}
+
